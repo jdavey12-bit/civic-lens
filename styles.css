@@ -167,9 +167,11 @@ body {
     font-family: var(--font-body);
 }
 
-header, article, footer {
+header, footer {
     padding: 2rem;
 }
+
+article { margin: 0 2rem;}
 
 header {
   background-color: var(--blue-bulletin);
@@ -181,6 +183,11 @@ main {
   font-family: var(--font-body);
   padding: 1rem;
 }
+
+section h2 {
+  padding-top: 2rem;
+}
+
 section.breaking-item {
   background-color: var(--news-flash);
   color: var(--watchdog-white);
@@ -285,7 +292,7 @@ footer {
 
 footer a {
   display: inline-block;
-  margin:.6rem .6rem 0 .6rem;
+  margin:0 1rem 1rem 0;
   color: var(--watchdog-white);
   background-color: var(--news-flash);
   padding: 0.75rem;
