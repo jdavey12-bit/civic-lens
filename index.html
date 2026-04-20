@@ -5,17 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="Civic Lens is an independent news organization committed to unbiased reporting, investigative journalism, and truth-driven storytelling.">
-  <meta name="author" content="Civic Lens">
+  <meta name="author" content="Jennifer Davey">
 
 <!-- ADD Open Graph Meta for title, description, image, url, type -->
-
+	<meta property="og:site_name" content="Civic Lens" />
+	<meta property=“og:title” content="Civic Lens" />
+	<meta property="og:description" content="Civic Lens is an independent news organization committed to unbiased 
+  reporting, investigative journalism, and truth-driven storytelling." />
+	<meta property="og:url" content="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="https://www.public.asu.edu/~ccarra1/examples/SEO-meta/images/SPICKS-AND-SPECKS.jpeg" />
+	<meta property="og:image:width" content="700" />
+	<meta property="og:image:height" content="700" />
 <!-- ADD link to stylesheet -->
-
+<link rel="stylesheet" type="text/css" href="styles.css">
   <title>Civic Lens</title>
 </head>
 <body>
 <!-- ADD semantic and validated HTML -->
+ <header>
 <!-- ADD skip to main content -->
+ <a href="#main" class="skip-link">Skip to main content</a>
     <button id="theme-toggle" aria-label="Toggle light/dark mode">
       <svg width="35px" height="35px" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
         <defs><clipPath id="a"><path d="m18.512 18.512h62.977v62.977h-62.977z"/></clipPath></defs>
@@ -23,7 +33,7 @@
       </svg>
     </button>
 
-      Civic Lens
+     <h1>Civic Lens</h1>
       <p class="tagline">See Clearly. Know Deeply. Act Justly.</p>
       
       <nav class="mobile-nav" aria-label="Mobile Navigation">
@@ -36,88 +46,124 @@
           <li><a href="#social">Social</a></li>
         </ul>
       </nav>
-      
-      Welcome to Civic Lens
-        We are an independent news organization dedicated to unbiased reporting, investigative journalism, and truth-driven storytelling. At Civic Lens, our mission is to expose the facts, amplify marginalized voices, and shine light on the systems that shape our society.</p>
+    </header>
+    <main>
+      <article>
+        <section id="introduction">
+      <h2>Welcome to Civic Lens</h2>
+        <p>We are an independent news organization dedicated to unbiased reporting, investigative journalism, and truth-driven storytelling. At Civic Lens, our mission is to expose the facts, amplify marginalized voices, and shine light on the systems that shape our society.</p>
         <blockquote class="tagline">“We don't follow the narrative. We follow the facts.”</blockquote>
-
-      Breaking News
-
-        Federal Investigation Launched into Water Mismanagement in the Southwest
-        The Department of Justice has announced a full investigation into decades of water distribution practices affecting tribal lands and rural communities.
-        videos/water-management.mp4
+</section>
+<section id="breaking-news">
+    <h2>Breaking News</h2>
+     <section class="breaking-item">
+        <h3>Federal Investigation Launched into Water Mismanagement in the Southwest</h3>
+       <p>The Department of Justice has announced a full investigation into decades of water distribution practices affecting tribal lands and rural communities.</p>
+        <video controls>
+          <source src="videos/water-management.mp4" type="video/mp4">
+        </video>
+      </section>  
+      <section class="breaking-item">
+        <h3>Voter Suppression Bill Faces Pushback in State Supreme Court</h3>
+        <p>Civil rights advocates argue that the bill disenfranchises thousands of voters and potential voters of color and those in rural areas of the country.</p>
+        <video controls>
+          <source src="videos/voter-suppression.mp4" type="video/mp4">
+        </video>
+      </section>
+</section>
+<section id="featured-articles">
+      <h2>Featured Articles</h2>
+        <section class="featured-item">
+        <h3>The Cost of Silence: Whistleblower Stories from Inside Tech Giants</h3>
+        <p>Former employees speak out about ethical breaches in data privacy and surveillance.</p>
+        </section>
+         <section class="featured-item">
+        <h3>Unequal Justice: How Bail Systems Harm the Poor</h3>
+        <p>An investigative series on cash bail and its disproportionate impact.</p>
+        </section>
+         <section class="featured-item"> 
+        <h3>Invisible Work: The Lives of Migrant Caregivers</h3>
+        <p>Humanizing the labor that keeps households and economies afloat.</p>
+        </section>
+         <section class="featured-item">
+        <h3>Redlined Still: A New Map of Modern-Day Housing Discrimination</h3>
+        <p>Data visualization showing systemic inequality in real estate today.</p>
+        </section>
+         <section class="featured-item">
+        <h3>Climate Injustice: Who Pays for Pollution?</h3>
+        <p>Communities of color bear the brunt of environmental damage.</p>
+        </section>
+         <section class="featured-item">
+        <h3>Teaching Under Fire: The Fight for Inclusive Education</h3>
+        <p>Teachers navigate book bans, curriculum restrictions, and culture wars.</p>
+        </section>
+         <section class="featured-item">
+        <h3>Food Deserts and Corporate Abandonment</h3>
+        <p>Why access to nutrition is a zip code lottery.</p>
+        </section>
+         <section class="featured-item">
+        <h3>Policing Mental Health: A Broken Response System</h3>
+        <p>Examining police interactions with those in crisis.</p>
+        </section>
+         <section class="featured-item">
+        <h3>The Disinformation Economy</h3>
+        <p>Tracing profit motives behind fake news empires.</p>
+        </section>
+         <section class="featured-item">
+        <h3>Facing the Algorithm: AI and Racial Bias</h3>
+        <p>The coded inequalities that shape our lives.</p>
+        </section>
+         <section class="featured-item">
+        <h3>The Voting Maze</h3>
+        <p>A guide to understanding your rights amid changing laws.</p>
+        </section>
+         <section class="featured-item">
+        <h3>After the Cameras Leave: Long-Term Crisis Recovery</h3>
+        <p>Rebuilding trust and infrastructure in disaster-hit communities.</p>
+        </section>
+    </section>
+    <section id="subscribe">    
         
-        Voter Suppression Bill Faces Pushback in State Supreme Court
-        Civil rights advocates argue that the bill disenfranchises thousands of voters and potential voters of color and those in rural areas of the country.
-        videos/voter-suppression.mp4
+     <h2>Stay Informed. Stay Empowered.</h2>
+        <p>Receive text messages with the news you want to know.</p>
+       <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
         
-      Featured Articles
+       <label for="mobile">Mobile</label>
+        <input type="tel" id="mobile" name="mobile" required>
+        <fieldset id="notification-preferences">
+       <legend>Notification Preferences</legend>
+       <input type="checkbox" id="breaking-news" name="preferences" value="breaking-news">
+        <label for="breaking-news">Breaking News</label>
+        <input type="checkbox" id="politics" name="preferences" value="politics">
+        <label for="politics">Politics</label>
+        <input type="checkbox" id="weather" name="preferences" value="weather">
+        <label for="weather">Weather</label>
+        <input type="checkbox" id="sports" name="preferences" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="entertainment" name="preferences" value="entertainment">
+        <label for="entertainment">Entertainment</label>
+        <input type="checkbox" id="world" name="preferences" value="world">
+        <label for="world">World</label>
+        <input type="checkbox" id="financial" name="preferences" value="financial">
+        <label for="financial">Financial</label>
+        </fieldset>
+        <input type="submit" name="submit" value="Subscribe">
+        </form> 
+        </section>
+        </article>
+      </main>
+      <footer>
+     <h2>Follow Us</h2>
+        <a href="https://x.com" target="_blank" rel="noopener noreferrer">Twitter/X</a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">TikTok</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         
-        The Cost of Silence: Whistleblower Stories from Inside Tech Giants
-        Former employees speak out about ethical breaches in data privacy and surveillance.
-        
-        Unequal Justice: How Bail Systems Harm the Poor
-        An investigative series on cash bail and its disproportionate impact.
-        
-        Invisible Work: The Lives of Migrant Caregivers
-        Humanizing the labor that keeps households and economies afloat.
-        
-        Redlined Still: A New Map of Modern-Day Housing Discrimination
-        Data visualization showing systemic inequality in real estate today.
-        
-        Climate Injustice: Who Pays for Pollution?
-        Communities of color bear the brunt of environmental damage.
-        
-        Teaching Under Fire: The Fight for Inclusive Education
-        Teachers navigate book bans, curriculum restrictions, and culture wars.
-        
-        Food Deserts and Corporate Abandonment
-        Why access to nutrition is a zip code lottery.
-        
-        Policing Mental Health: A Broken Response System
-        Examining police interactions with those in crisis.
-        
-        The Disinformation Economy
-        Tracing profit motives behind fake news empires.
-        
-        Facing the Algorithm: AI and Racial Bias
-        The coded inequalities that shape our lives.
-        
-        The Voting Maze
-        A guide to understanding your rights amid changing laws.
-        
-        After the Cameras Leave: Long-Term Crisis Recovery
-        Rebuilding trust and infrastructure in disaster-hit communities.
-        
-        
-      Stay Informed. Stay Empowered.
-        Receive text messages with the news you want to know.
-        
-        Name
-        
-        Mobile
-        
-        Notification Preferences
-        
-        Breaking News
-        Politics
-        Weather
-        Sports
-        Entertainment
-        World
-        Financial
-        
-        Subscribe
-      
-      Follow Us
-        Twitter/X
-        Instagram
-        YouTube
-        TikTok
-        LinkedIn
-        
-        &copy; 2025 Civic Lens. All rights reserved.
-        
+       <small>&copy; 2025 Civic Lens. All rights reserved.</small>
+      </footer>
         
   <script>
     const toggleButton = document.getElementById('theme-toggle');
