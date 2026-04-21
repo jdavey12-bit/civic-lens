@@ -463,10 +463,22 @@ form input:nth-of-type(2) {
 form fieldset {
   grid-column: 1/-1;
   display:grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 32px 1fr 32px 1fr;
   grid-template-rows: auto;
   grid-gap: .25rem;
   align-content: start;
+}
+form fieldset label:nth-of-type(odd) {
+  grid-column: 2/3;
+}
+form fieldset label:nth-of-type(even) {
+  grid-column: 4/5;
+}
+form fieldset input:nth-of-type(odd) {
+  grid-column: 1/2;
+}
+form fieldset input:nth-of-type(even) {
+  grid-column: 3/4;
 }
 }
 /* ///ADD/// large styles 920px */
