@@ -465,13 +465,16 @@ form fieldset {
    display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(5, 1fr);
+  grid-auto-flow: row;
   grid-gap: .25rem;
   align-content: start;
 }
 
-form fieldset .checkboxes:nth-of-type(1) {
-  grid-column: 1/2;
-  grid-row:1/1; }
+form fieldset .checkboxes {
+  display:flex;
+  flex-direction: row;
+  grid-column: auto;
+  grid-row:auto; }
 
 }
 /* ///ADD/// large styles 920px */
