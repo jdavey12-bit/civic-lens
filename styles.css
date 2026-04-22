@@ -109,7 +109,7 @@ nav {
     text-align: center;
     border: 0;
     font-family: var(--font-body);
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     background-color: var(--blue-bulletin);
 
@@ -117,7 +117,6 @@ nav {
 
 nav ul {
     text-align:center;
-    margin:1rem auto .5rem;
     padding:0;
     list-style:none;
     overflow:hidden;
@@ -161,6 +160,7 @@ nav label {
     left: 2rem;
     margin-top: 1rem;
     z-index: 10;
+    transition: var(--transition);
    
 }
 
@@ -177,7 +177,7 @@ body {
 }
 
 header, footer {
-    padding: 2rem 2rem 0;
+    padding: 2rem 2rem 1rem;
 }
 
 article { margin: 0 2rem;}
@@ -369,15 +369,15 @@ h2 {
   line-height: 3.5rem;;
 }
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-stretch: 110%;
   border-bottom: 1px solid;
-  line-height: 2.75rem;
+  line-height: 2.375rem;
 }
 
 p {
-    font-size: 1.5rem;
-    line-height: 2.25rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
     font-weight: 350;
     font-optical-sizing: auto;
     margin: .25rem 0;
@@ -490,7 +490,7 @@ form fieldset .checkboxes {
 /* ///ADD/// large styles 920px */
 @media (min-width: 920px) {
   header, footer {
-    padding: 3rem 3rem 0;
+    padding: 2rem 3rem 1rem;
   }
 
 
@@ -549,5 +549,6 @@ body{
 .navbar:has(#menu-toggle:checked) .menu {
   height: 500px;
 position:fixed;
-    width: 100%;}
+    width: 100%;
+  transition: var(--transform);}
 }
