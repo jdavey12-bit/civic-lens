@@ -240,7 +240,7 @@ form {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-row-gap:.5rem;
-  font-size:1.5rem;
+  font-size:1.2rem;
 }
 
 form label, form input {
@@ -333,7 +333,7 @@ footer a {
   padding: 0.75rem;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1rem;
   border: 1px solid var(--blue-bulletin);
 }
 
@@ -403,8 +403,17 @@ blockquote.tagline {
 /* ///ADD/// medium styles 620px */
 @media (min-width: 620px) {
 
+  header, footer {
+    padding: 2rem 3rem .5rem;
+  }
+
   nav label {
     display: none;
+  }
+
+  nav input:checked ~ ul {
+    position: relative;
+    left: 0;
   }
 
   nav ul {
@@ -489,10 +498,6 @@ form fieldset .checkboxes {
 }
 /* ///ADD/// large styles 920px */
 @media (min-width: 920px) {
-  header, footer {
-    padding: 2rem 3rem 1rem;
-  }
-
 
 article { margin: 0 3rem;}
   #featured-articles {
@@ -545,7 +550,7 @@ body{
 }
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
-@supports (selector(:has(*))) {
+@supports (selector(:has(*))) and (max-width: 620px) {
 .navbar:has(#menu-toggle:checked) .menu {
   height: 500px;
 position:fixed;
