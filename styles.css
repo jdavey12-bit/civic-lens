@@ -514,7 +514,12 @@ form fieldset {
     max-width: 1420px;
     margin: 0 auto;
   }
-#introduction, #breaking-news, #featured-articles, #alerts{
+  .intro {
+      max-width: 1420px;
+      display: block;
+      margin: 0 auto;
+  }
+ #breaking-news, #featured-articles, #alerts{
     max-width: 1420px;
     margin: 0 auto;
 }
