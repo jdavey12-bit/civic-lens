@@ -180,7 +180,7 @@ header, footer {
     padding: 2rem 2rem 1rem;
 }
 
-article { margin: 0 2rem;}
+article { margin: 2rem 2rem 0;}
 
 header {
   background-color: var(--blue-bulletin);
@@ -499,7 +499,7 @@ form fieldset .checkboxes {
 /* ///ADD/// large styles 920px */
 @media (min-width: 920px) {
 
-article { margin: 0 3rem;}
+article { margin: 2rem 3rem 0;}
   #featured-articles {
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -514,7 +514,7 @@ form fieldset {
     max-width: 1420px;
     margin: 0 auto;
   }
-  .intro {
+  h2.intro, p.intro {
       max-width: 1420px;
       display: block;
       margin: 0 auto;
